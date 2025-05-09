@@ -55,18 +55,9 @@ php artisan migrate
 php artisan db:seed
 ```
 
-7. **ketikan perintah berikut di terminal untuk memasukan isi database pada mysql:**
-```bash
-php artisan db:seed
-```
-8. **ketikan perintah berikut di terminal untuk memasukan isi database pada mysql:**
-```bash
-php artisan db:seed
-```
-
-9. **ketikan perintah berikut di terminal untuk membuat app key .env**
+7. **ketikan perintah berikut di terminal untuk membuat app key .env**
 ```bash
 php artisan key:generate
 ```
 
-10. **Buka ```localhost:8000/``` untuk menjalankan website**
+8. **Buka ```localhost:8000/``` untuk menjalankan website**
