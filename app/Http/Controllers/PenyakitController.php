@@ -195,7 +195,7 @@ class PenyakitController extends Controller
     public function json_jenispenyakitcakung()
     {
         $json = [];
-        $query = PenyakitModel::select('jenis_penyakit')->where('daerah', 'Cakung')->groupBy('jenis_penyakit')->get();
+        $query = PenyakitModel::select('jenis_penyakit')->where('daerah', 'Jakarta')->groupBy('jenis_penyakit')->get();
         foreach ($query as $row) {
             $json[] = $row->jenis_penyakit;
         }
@@ -207,7 +207,7 @@ class PenyakitController extends Controller
     {
         $json = [];
         $query = PenyakitModel::select('jenis_penyakit')
-            ->where('daerah', 'Cakung')
+            ->where('daerah', 'Jakarta')
             ->get();
 
         $jenis_penyakit = [];
@@ -243,7 +243,7 @@ class PenyakitController extends Controller
     public function json_jenispenyakitjatinegara()
     {
         $json = [];
-        $query = PenyakitModel::select('jenis_penyakit')->where('daerah', 'Jatinegara')->groupBy('jenis_penyakit')->get();
+        $query = PenyakitModel::select('jenis_penyakit')->where('daerah', 'Bandung')->groupBy('jenis_penyakit')->get();
         foreach ($query as $row) {
             $json[] = $row->jenis_penyakit;
         }
@@ -255,7 +255,7 @@ class PenyakitController extends Controller
     {
         $json = [];
         $query = PenyakitModel::select('jenis_penyakit')
-            ->where('daerah', 'Jatinegara')
+            ->where('daerah', 'Bandung')
             ->get();
 
         $jenis_penyakit = [];

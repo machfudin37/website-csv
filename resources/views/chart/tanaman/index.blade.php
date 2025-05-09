@@ -20,14 +20,14 @@
                     height:400px;"></div>
                 </div>
                 <div>
-                    <h5>Grafik Jenis Tanaman Daerah Cakung</h5>
+                    <h5>Grafik Jenis Tanaman Daerah Jakarta</h5>
                     <div id="containertanamancakung"
                         style="width: 550px;
                     margin:auto; 
                     height:400px;"></div>
                 </div>
                 <div>
-                    <h5>Grafik Jenis Tanaman Daerah Jatinegara</h5>
+                    <h5>Grafik Jenis Tanaman Daerah Bandung</h5>
                     <div id="containertanamanjatinegara"
                         style="width: 550px;
                     margin:auto; 
@@ -136,7 +136,7 @@
             series: <?= $totaldaerah ?>
 
         });
-        // Chart Jenis Tanaman Daerah Cakung
+        // Chart Jenis Tanaman Daerah Jakarta
         Highcharts.chart('containertanamancakung', {
             chart: {
                 type: 'column',
@@ -190,7 +190,7 @@
             series: <?= $totaltanamancakung ?>
 
         });
-        // Chart Jenis Tanaman Daerah Jatinegara
+        // Chart Jenis Tanaman Daerah Bandung
         Highcharts.chart('containertanamanjatinegara', {
             chart: {
                 type: 'column',

@@ -20,14 +20,14 @@
                     height:400px;"></div>
                 </div>
                 <div>
-                    <h5>Grafik Jenis Penyakit Daerah Cakung</h5>
+                    <h5>Grafik Jenis Penyakit Daerah Jakarta</h5>
                     <div id="containerpenyakitcakung"
                         style="width: 550px;
                     margin:auto; 
                     height:400px;"></div>
                 </div>
                 <div>
-                    <h5>Grafik Jenis Penyakit Daerah Jatinegara</h5>
+                    <h5>Grafik Jenis Penyakit Daerah Bandung</h5>
                     <div id="containerpenyakitjatinegara"
                         style="width: 550px;
                     margin:auto; 
@@ -136,7 +136,7 @@
             series: <?= $totaldaerah ?>
 
         });
-        // Chart Jenis Penyakit Daerah Cakung
+        // Chart Jenis Penyakit Daerah jakarta
         Highcharts.chart('containerpenyakitcakung', {
             chart: {
                 type: 'column',
@@ -190,7 +190,7 @@
             series: <?= $totalpenyakitcakung ?>
 
         });
-        // Chart Jenis Penyakit Daerah Jatinegara
+        // Chart Jenis Penyakit Daerah Bandung
         Highcharts.chart('containerpenyakitjatinegara', {
             chart: {
                 type: 'column',

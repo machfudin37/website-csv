@@ -191,7 +191,7 @@ class TanamanController extends Controller
     public function json_namatanamancakung()
     {
         $json = [];
-        $query = TanamanModel::select('nama_tanaman')->where('daerah', 'Cakung')->groupBy('nama_tanaman')->get();
+        $query = TanamanModel::select('nama_tanaman')->where('daerah', 'Jakarta')->groupBy('nama_tanaman')->get();
         foreach ($query as $row) {
             $json[] = $row->nama_tanaman;
         }
@@ -203,7 +203,7 @@ class TanamanController extends Controller
     {
         $json = [];
         $query = TanamanModel::select('nama_tanaman')
-            ->where('daerah', 'Cakung')
+            ->where('daerah', 'Jakarta')
             ->get();
 
         $nama_tanaman = [];
@@ -239,7 +239,7 @@ class TanamanController extends Controller
     public function json_namatanamanjatinegara()
     {
         $json = [];
-        $query = TanamanModel::select('nama_tanaman')->where('daerah', 'Jatinegara')->groupBy('nama_tanaman')->get();
+        $query = TanamanModel::select('nama_tanaman')->where('daerah', 'Bandung')->groupBy('nama_tanaman')->get();
         foreach ($query as $row) {
             $json[] = $row->nama_tanaman;
         }
@@ -251,7 +251,7 @@ class TanamanController extends Controller
     {
         $json = [];
         $query = TanamanModel::select('nama_tanaman')
-            ->where('daerah', 'Jatinegara')
+            ->where('daerah', 'Bandung')
             ->get();
 
         $nama_tanaman = [];
