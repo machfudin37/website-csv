@@ -1,0 +1,30 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-items {
+    display: flex;
+    align-items: center;
+}
+
+.right-items {
+    display: flex;
+    align-items: center;
+}
+
+/* Gaya tambahan sesuai kebutuhan Anda */
+
+/* Gaya untuk tombol mode */
+.switch-mode {
+    margin-left: 828px; /* Jarak antara tombol mode dengan elemen sebelumnya */
+}
+
+/* Gaya untuk foto profil */
+.profile img {
+    width: 30px; /* Sesuaikan ukuran gambar profil */
+    height: 30px; /* Sesuaikan ukuran gambar profil */
+    border-radius: 50%; /* Agar foto profil berbentuk lingkaran */
+    margin-left: 10px; /* Jarak antara tombol mode dengan foto profil */
+}
