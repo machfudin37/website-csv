@@ -6,7 +6,7 @@
 ![Admin Panel](https://github.com/machfudin37/website-csv/blob/main/tampilan/ui-admin.png?raw=true)
 
 
- ### Halaman User Interface
+ ### Halaman User
 ![User Panel](https://github.com/machfudin37/website-csv/blob/main/tampilan/ui-user.png?raw=true)
 
 ------------
